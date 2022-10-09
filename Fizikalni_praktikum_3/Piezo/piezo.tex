@@ -1,0 +1,98 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[slovene]{babel}
+\usepackage{geometry}
+\geometry{legalpaper, margin=1in}
+\usepackage{graphicx}
+\usepackage{soul}
+\usepackage{xcolor}
+\usepackage{gensymb}
+\usepackage{alltt}
+
+
+\begin{document}
+
+\title{Piezoelektri\v cnost}
+\author{Urh Trinko}
+\maketitle
+
+\newpage
+
+
+\section{UVOD}
+
+Piezoelektričnim kristalom se ob mehanski obremenitvi spremeni električna ploarizacija, velja pa tudi obratno, saj zunanje električno polje povzroči deformacijo kristala. Piezoelektrični kristali se uporabljajo v napravah za meritev spremembe tlaka/sil, mikrofone, generatorje ultrazvoka ter pri delovanju tunelskega mikroskopa.
+\\
+\\
+Pri vaji bomo opazovali piezoelektri\v cni odziv ploščice iz piezokeramike, ko nanjo delujemo z neko silo. Ko na ploščisco pritisnemo s silo F je ustrvarjena (talčna) napetost T enaka $\frac{F}{S}$, zato nastane polarizacija $P_{3} = d \cdot T$. Ob tem se med gostoto električnega polja D in polarizacijo $P_3$nvspostavi zveza:
+
+$$D = \epsilon \epsilon_0 E + P_3$$
+
+($\epsilon$ - dielektrična konstanta piezoelektrika)
+\\
+\\
+Za naboj na posamezni plošči keramike velja iz ena\v cbe $q = D S$ sledi:
+
+$$q = \textcolor{red}{\frac{\epsilon \epsilon_0 S}{b} U} + d \cdot F$$
+\\
+Rdeči člen predstavlja le drug način za zapis naboja na ploščatem kondenzatorju:
+
+\begin{equation}
+	{C = \frac{\epsilon \epsilon_0 S}{b}}
+\end{equation}
+
+(S - ploščina kondenzatorja, b - debelina, C - kapaciteta)
+\\
+Iz tega sledi, da lahko enačbo za naboj $q$ preoblikujemo v:
+
+\begin{equation}
+	{q = C U + d \cdot F}
+\end{equation}
+\\
+Za časovno spreminjanje napetosti pa velja:
+
+\begin{equation}
+	{U_{s}(t) = s U_{0} e^{-t/\tau}}
+\end{equation}
+
+($s = +$ pri obremenitvi, $s = -$ pri razbremenitvi, časovna konstanta $\tau$ je enaka $RC$, kjer je $R$ upor, $C$ pa kapaciteta kondenzatorja)
+
+\section{POTREBŠČINE}
+
+\begin{itemize}
+	\item merilna valjasta posoda s piezoelektrično keramiko
+	\item elektrometrskiojačevalnik z baterijskim napajalnikom
+	\item digitalni osciloskop
+	\item USB kjuč
+	\item uteži za 200g, 500g in 1kg 
+\end{itemize}
+
+\section{NALOGA}
+
+\begin{enumerate}
+	\item Izmeri dielektrično konstanto piezoelektrične keramike.
+	\item Izračunaj piezoelektrični koeficient keramike.
+\end{enumerate}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
